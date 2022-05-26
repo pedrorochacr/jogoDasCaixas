@@ -1,15 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-/*
-Autores:
-Pedro Henrique Rocha de Castro- 20213004828
-Felipe Silva Faria- 20203005008
-
-
-
-*/
-
 
 int main(){
 
@@ -19,7 +10,7 @@ int main(){
 
 
 
-	FILE *fp; // DeclaraÁ„o da estrutura
+	FILE *fp; // Declara√ß√£o da estrutura
 	printf("Digite o nome do arquivo de entrada: ");
 	scanf("%s",usuario);
 	fp = fopen(usuario,"rt");
@@ -35,9 +26,9 @@ int main(){
 	int numCaixas=0;//utilizado para  a posicao das caixas
 
 
-  	fscanf (fp, "%d", &altura);//primeira linha do arquivo È a quantidade de fileiras
+  	fscanf (fp, "%d", &altura);//primeira linha do arquivo √© a quantidade de fileiras
 
-	while(!feof(fp)){ // Enquanto n„o chegar ao final do arquivo
+	while(!feof(fp)){ // Enquanto n√£o chegar ao final do arquivo
 
 
         fscanf (fp, "%d", &i);//armazena os valores das caixas em i
